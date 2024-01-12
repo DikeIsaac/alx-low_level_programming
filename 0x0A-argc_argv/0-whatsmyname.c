@@ -7,9 +7,9 @@
  *
  * Return: Always o.
  */
-int main(int  argc, char *argv[])
+int main(int  *argc, char *argv[])
 {
-	if (argc >= 1)
+	if (argc > 0)
 	{
 		printf("%s\n", argv[0]);
 	}
